@@ -9,7 +9,7 @@
 </script>
 
 <header>
-	<a class="site-name" href="/"><img src={logo} alt="Home" class="logo"></a>
+	<a class="site-name" href="https://dtm.iom.int/"><img src={logo} alt="Home" class="logo"></a>
 
 	<nav>
 		{#each links as link}

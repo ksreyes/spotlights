@@ -13,6 +13,7 @@
     --blue3: #8099D0; 
     --blue4: #B3C2E3; 
     --blue5: #D9E0F1; 
+    --blue6: #f0f3fc; 
     --green1: #5CB8B2;  
     --green2: #85CAC5; 
     --green3: #AEDCD9; 
@@ -204,6 +205,17 @@ footer {
 
 /*** Page **************************************/
 
+.lead-in {
+    background-color: var(--gray5);
+    padding: .5em .5em .5em 1em;
+    margin: 1em 0;
+    
+    p {
+        margin: 0 0;
+        font-size: .8rem;
+        font-style: italic;
+    }
+}
 .section-title {
     margin-top: 3rem;
     color: var(--blue1);
@@ -223,7 +235,7 @@ footer {
 
 .collapsible {
     margin-top: 1em;
-    background-color: var(--unBlue5);
+    background-color: var(--blue6);
     padding: 1em 1em;
     border-radius: .5em;
     
