@@ -1,4 +1,5 @@
 <script>
+	import PasswordGate from '#lib/PasswordGate.svelte';
 	import '../app.css';
 	import Header from '#lib/components/Header.svelte';
 	import Footer from '#lib/components/Footer.svelte';
@@ -15,30 +16,10 @@
 <svelte:head>
 </svelte:head>
 
-<Header />
 
-<!-- <div class="shell">
-	<SideNav {links} />
+<PasswordGate hash="27baba5c4ba85563daded439f3d3f2fd3b998a544296a4c66548f0bd87ed27f5">
+	<Header />
+	{@render children()}
+	<Footer />
+</PasswordGate>
 
-	<div class="main">
-		<Header />
-		{@render children()}
-	</div>
-</div>
-
-<style>
-	@media (min-width: 900px) {
-		.shell {
-			display: grid;
-			grid-template-columns: 14rem 1fr;
-		}
-	}
-
-	.main {
-		min-width: 0; /* stops wide content from forcing horizontal scroll */
-	}
-</style> -->
-
-{@render children()}
-
-<Footer />
