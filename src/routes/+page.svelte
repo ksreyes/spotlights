@@ -20,9 +20,7 @@
         30 November 2026
     </div>
 
-    <div class="lead-in">
-        <p>This is an excerpt from the <a href="/">Global Overview of Migration Routes report (May–August 2026 edition)</a>.</p>
-    </div>
+    <p><emph>This is an excerpt from the <a href="/">Global Overview of Migration Routes report (May–August 2026 edition)</a>.</emph></p>
     
     <p>In late June and early July 2026, two boats carrying around 540 Rohingya refugees departed from the coast of Myanmar's Rakhine State. One boat lost contact shortly after departure; the other is believed to have capsized off Myanmar's coast several days later. <a href="https://www.iom.int/news/iom-and-unhcr-deeply-concerned-reports-maritime-incidents-myanmar-coast-over-500-feared-dead">No survivors were reported, with all those on board presumed dead.</a> This was not an isolated tragedy, but the latest in a series of deadly incidents along the Naf River, Bay of Bengal and Andaman Sea that have claimed thousands of Rohingya lives over the past decade.</p>
 
@@ -90,11 +88,9 @@
 
     <p>Yet better data alone will not save lives. Stronger search-and-rescue and identification operations are also needed, along with safe and timely disembarkation, cooperation between countries of origin, transit and destination to access to regular asylum and protection pathways, and action against smuggling and trafficking networks. Above all, the reasons why Rohingya leave must be addressed: persecution in Myanmar, worsening conditions in the camps, and the lack of safe and regular pathways. Migrant and refugee deaths and disappearances are preventable, and counting those who have died and gone missing is the first step towards preventing the next tragedy.</p>
 
-    <div class=article-credits>
-        <p>Written by <strong>Gabriela Alvarez Sanchez-Spence</strong> (Regional Data Analysis at the Asia-Pacific Regional Data Hub).</p>
-        <p>Data provided by <strong>Boon Benjapornkulpong</strong> (IOM Missing Migrants Project Data and Research Assistant for Asia and the Pacific).</p>
+    <div class=lead-in>
+        <p>Written by <strong>Gabriela Alvarez Sanchez-Spence</strong> (Regional Data Analysis at the Asia-Pacific Regional Data Hub). Data provided by <strong>Boon Benjapornkulpong</strong> (IOM Missing Migrants Project Data and Research Assistant for Asia and the Pacific).</p>
     </div>
-
 
 </article>
 

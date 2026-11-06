@@ -208,14 +208,20 @@ footer {
 .lead-in {
     background-color: var(--gray5);
     padding: .5em .5em .5em 1em;
-    margin: 1em 0;
+    margin: 2em 0;
     
     p {
+        color: var(--gray2);
         margin: 0 0;
         font-size: .8rem;
         font-style: italic;
     }
+
+    strong {
+        color: var(--gray2);
+    }
 }
+
 .section-title {
     margin-top: 3rem;
     color: var(--blue1);

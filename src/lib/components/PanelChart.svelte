@@ -1,6 +1,5 @@
 <script>
     import BarChart from './BarChart.svelte';
-    import { formatNumber } from './formatNumber.js';
 
     let {
         title,
@@ -47,12 +46,34 @@
 </figure>
 
 <style>
-    .chart { margin: 2rem 0; font-family: 'Helvetica Neue', Arial, sans-serif; }
-    .tag { width: 36px; height: 8px; background: var(--blue1); margin-bottom: 8px; }
-    h3 { margin: 0 0 2px; font-size: 1.05rem; font-weight: 700; color: #121212; }
-    .subtitle { margin: 0 0 10px; font-size: 0.9rem; color: #3f3f3f; min-height: 1.3em; }
-
-    .buttons { display: flex; gap: 6px; margin-bottom: 8px; flex-wrap: wrap; }
+    .chart { 
+        margin: 2rem 0; 
+        font-family: 'Helvetica Neue', Arial, sans-serif; 
+    }
+    .tag { 
+        width: 36px; 
+        height: 8px; 
+        background: var(--blue1); 
+        margin-bottom: 8px; 
+    }
+    h3 { 
+        margin: 0 0 2px; 
+        font-size: 1.05rem; 
+        font-weight: 700; 
+        color: #121212; 
+    }
+    .subtitle { 
+        margin: 0 0 10px; 
+        font-size: 0.9rem; 
+        color: #3f3f3f; 
+        min-height: 1.3em; 
+    }
+    .buttons { 
+        display: flex; 
+        gap: 6px; 
+        margin-bottom: 8px; 
+        flex-wrap: wrap; 
+    }
     button {
         font: inherit;
         font-size: 0.8rem;
@@ -63,9 +84,21 @@
         border-radius: 999px;
         cursor: pointer;
     }
-    button:hover { border-color: #121212; }
-    button.active { background: #121212; border-color: #121212; color: #fff; }
-    button:focus-visible { outline: 2px solid #006ba2; outline-offset: 2px; }
-
-    figcaption { margin-top: 6px; font-size: 0.75rem; color: #5c5c5c; }
+    button:hover { 
+        border-color: #121212; 
+    }
+    button.active { 
+        background: #121212; 
+        border-color: #121212; 
+        color: #fff; 
+    }
+    button:focus-visible { 
+        outline: 2px solid #006ba2; 
+        outline-offset: 2px; 
+    }
+    figcaption { 
+        margin-top: 6px; 
+        font-size: 0.75rem; 
+        color: #5c5c5c; 
+    }
 </style>
