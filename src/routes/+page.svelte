@@ -19,6 +19,10 @@
     <div class="byline">
         30 November 2026
     </div>
+
+    <div class="lead-in">
+        <p>This is an excerpt from the <a href="/">Global Overview of Migration Routes report (May–August 2026 edition)</a>.</p>
+    </div>
     
     <p>In late June and early July 2026, two boats carrying around 540 Rohingya refugees departed from the coast of Myanmar's Rakhine State. One boat lost contact shortly after departure; the other is believed to have capsized off Myanmar's coast several days later. <a href="https://www.iom.int/news/iom-and-unhcr-deeply-concerned-reports-maritime-incidents-myanmar-coast-over-500-feared-dead">No survivors were reported, with all those on board presumed dead.</a> This was not an isolated tragedy, but the latest in a series of deadly incidents along the Naf River, Bay of Bengal and Andaman Sea that have claimed thousands of Rohingya lives over the past decade.</p>
 
@@ -57,6 +61,7 @@
     <PanelChart
         title={rohingya.title}
         panels={rohingya.panels}
+        note={rohingya.note}
         source={rohingya.source}
         format={(v) => formatNumber(v)}
     />
@@ -90,9 +95,6 @@
         <p>Data provided by <strong>Boon Benjapornkulpong</strong> (IOM Missing Migrants Project Data and Research Assistant for Asia and the Pacific).</p>
     </div>
 
-    <div class="lead-in">
-        <p>This is an excerpt from the <a href="/">Global Overview of Migration Routes report (May–August 2026 edition)</a>.</p>
-    </div>
 
 </article>
 
