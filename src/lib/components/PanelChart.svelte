@@ -47,8 +47,8 @@
 
 <style>
     .chart { 
-        margin: 2rem 0; 
-        font-family: 'Helvetica Neue', Arial, sans-serif; 
+        margin-top: 2rem; 
+        font-family: 'Open Sans', Arial, sans-serif; 
     }
     .tag { 
         width: 36px; 
@@ -81,7 +81,7 @@
         border: 1px solid #b8c0c6;
         background: #fff;
         color: #121212;
-        border-radius: 999px;
+        border-radius: 5px;
         cursor: pointer;
     }
     button:hover { 

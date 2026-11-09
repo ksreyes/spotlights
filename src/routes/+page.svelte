@@ -20,7 +20,9 @@
         30 November 2026
     </div>
 
-    <p><emph>This is an excerpt from the <a href="/">Global Overview of Migration Routes report (May–August 2026 edition)</a>.</emph></p>
+    <div class="boxed">
+        <p>This is an excerpt from the <a href="/">Global Overview of Migration Routes report (May–August 2026 edition)</a>.</p>
+    </div>
     
     <p>In late June and early July 2026, two boats carrying around 540 Rohingya refugees departed from the coast of Myanmar's Rakhine State. One boat lost contact shortly after departure; the other is believed to have capsized off Myanmar's coast several days later. <a href="https://www.iom.int/news/iom-and-unhcr-deeply-concerned-reports-maritime-incidents-myanmar-coast-over-500-feared-dead">No survivors were reported, with all those on board presumed dead.</a> This was not an isolated tragedy, but the latest in a series of deadly incidents along the Naf River, Bay of Bengal and Andaman Sea that have claimed thousands of Rohingya lives over the past decade.</p>
 
@@ -68,7 +70,6 @@
 
     <p>Despite fluctuation in the numbers of departures and arrivals, the number of deaths and disappearances among Rohingya refugees keep rising. In 2024, at least 657  of the nearly 9,200 individuals who departed along the Naf River, Bay of Bengal and Andaman Sea route were reported dead or missing. Even though departures fell by nearly 30 per cent to 6,500 in 2025, reported deaths and disappearances rose by more than one third to nearly 900 – the deadliest year on record for the route. In other words, one in seven people who attempted the crossing in 2025 died or went missing, the highest mortality rate of any sea route for refugees and migrants in the world.</p>
 
-    
     <p>Most recorded deaths and disappearances along these maritime routes come from a small number of major shipwrecks. Even though incidents are less frequent, compared to other perilous maritime routes, most result in hundreds of lives lost at once in a single event. To describe a few, for instance, in November 2024, two boats capsized off Myanmar's Central and Delta coasts, resulting in the death of 174 and 250 individuals, respectively. In May 2025, two more boats sank, leaving 427 people dead or missing. Six months later, three boats capsized near the Malaysia-Thailand coast, resulting in 286 deaths and disappearances.</p>
 
     <p>In 2026, three boat tragedies accounted for nearly all recorded deaths and disappearances. In April, an overcrowded boat left Teknaf, in southern Bangladesh, bound for Malaysia. Five days after departure, nine survivors were found adrift and rescued near the Andaman Islands. An estimated 260 people were feared dead or missing. Less than three months later came the two boat incidents described at the start of this Spotlight, leaving about 540 people presumed dead or missing. Some of those on board had travelled from the Cox's Bazar camps. The boats were reportedly heading towards Myanmar's southern coast, from where refugees were expected to continue overland across Thailand towards the Malaysian border.</p>
@@ -88,7 +89,7 @@
 
     <p>Yet better data alone will not save lives. Stronger search-and-rescue and identification operations are also needed, along with safe and timely disembarkation, cooperation between countries of origin, transit and destination to access to regular asylum and protection pathways, and action against smuggling and trafficking networks. Above all, the reasons why Rohingya leave must be addressed: persecution in Myanmar, worsening conditions in the camps, and the lack of safe and regular pathways. Migrant and refugee deaths and disappearances are preventable, and counting those who have died and gone missing is the first step towards preventing the next tragedy.</p>
 
-    <div class=lead-in>
+    <div class=boxed>
         <p>Written by <strong>Gabriela Alvarez Sanchez-Spence</strong> (Regional Data Analysis at the Asia-Pacific Regional Data Hub). Data provided by <strong>Boon Benjapornkulpong</strong> (IOM Missing Migrants Project Data and Research Assistant for Asia and the Pacific).</p>
     </div>
 

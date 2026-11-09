@@ -73,7 +73,8 @@ h3 {
 }
 
 p {
-    margin-top: 1em;
+    margin-top: 1.5rem;
+    line-height: 1.5em;
 }
 
 ul {
@@ -100,7 +101,8 @@ ul {
 a {
     font-weight: 600;
     text-decoration: none;
-    color: var(--blue2);
+    /* color: var(--blue2); */
+    color: black;
     /* background-image: linear-gradient(currentColor, currentColor);
 	background-repeat: no-repeat;
 	background-position: 0 100%;
@@ -110,13 +112,13 @@ a {
 
 a:hover,
 a:focus-visible {
-    /* text-decoration: underline; */
-    color: var(--unBlue1);
+    text-decoration: underline;
+    /* color: var(--unBlue1); */
 }
 
 
 strong {
-    color: var(--blue1);
+    /* color: var(--blue1); */
     font-weight: 700;
 }
 
@@ -205,20 +207,16 @@ footer {
 
 /*** Page **************************************/
 
-.lead-in {
-    background-color: var(--gray5);
-    padding: .5em .5em .5em 1em;
-    margin: 2em 0;
+.boxed {
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    margin-top: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     
     p {
-        color: var(--gray2);
         margin: 0 0;
-        font-size: .8rem;
-        font-style: italic;
-    }
-
-    strong {
-        color: var(--gray2);
+        font-size: .85rem;
     }
 }
 
@@ -229,6 +227,7 @@ footer {
 }
 
 .subtitle {
+    /* margin-top: 1.5rem; */
     font-size: 1.25rem;
 }
 
@@ -257,9 +256,9 @@ footer {
 }
 
 figure {
-	margin: 1.5rem 0;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
-
 figure img {
 	display: block;
 	width: 100%;
