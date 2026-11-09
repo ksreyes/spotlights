@@ -4,6 +4,7 @@
     import PanelChart from '#lib/components/PanelChart.svelte';
     import { rohingya } from '#lib/data/rohingya.js';
     import { formatNumber } from '#lib/components/formatNumber.js';
+    import src from '#lib/assets/rohingya/image.webp';
 </script>
 
 <article class="content-grid">
@@ -19,6 +20,12 @@
     <div class="byline">
         30 November 2026
     </div>
+
+    
+    <figure>
+        <img {src} alt="Rohingya adult with child"/>
+        <figcaption>Hakimpara refugee camp, Ukhia, Cox’s Bazar, Bangladesh. OCHA/Vincent Tremeau.</figcaption>
+    </figure>
 
     <div class="boxed">
         <p>This is an excerpt from the <a href="/">Global Overview of Migration Routes report (May–August 2026 edition)</a>.</p>

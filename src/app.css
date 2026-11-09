@@ -207,16 +207,20 @@ footer {
 
 /*** Page **************************************/
 
+img.banner {
+    max-width: 100%;
+}
+
 .boxed {
     border-top: 1px solid #dfdfdf;
     border-bottom: 1px solid #dfdfdf;
-    margin-top: 1.5em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    margin-top: 1rem;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
     
     p {
         margin: 0 0;
-        font-size: .85rem;
+        font-size: .8rem;
     }
 }
 
@@ -234,7 +238,7 @@ footer {
 .byline {
     font-size: .9rem;
     color: var(--gray2);
-    margin: 1rem 0 2rem 0;
+    margin: 1rem 0;
 
 }
 
