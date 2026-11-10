@@ -55,6 +55,10 @@ body {
     line-height: 1.5;
 }
 
+article {
+    padding-bottom: 3rem;
+}
+
 article h1 {
     font-size: 2.5rem;
     font-weight: 600;

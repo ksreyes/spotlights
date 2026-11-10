@@ -122,6 +122,7 @@
         flex-direction: column;
         align-items: left;
         color: #343a40;
+        margin-top: 3rem;
     }
 
     .footer * {
