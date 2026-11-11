@@ -8,6 +8,10 @@
     let back = `spotlight`
 </script>
 
+<svelte:head>
+    <title>The rising human cost of Rohingya maritime journeys | GOMR Spotlights</title>
+</svelte:head>
+
 <article class="content-grid">
 
     <div class="section-title">

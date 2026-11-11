@@ -9,6 +9,10 @@
     let back = `spotlight`
 </script>
 
+<svelte:head>
+    <title>{articles[1].title} | GOMR Spotlights</title>
+</svelte:head>
+
 <article class="content-grid">
 
     <div class="section-title">
