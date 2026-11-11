@@ -142,11 +142,6 @@
         font-weight: bolder;
     }
 
-    a {
-        color: var(--blue1);
-        text-decoration: none;
-    }
-
     .container {
         width: 100%;
         margin: 0 auto;
@@ -157,14 +152,6 @@
         margin-bottom: 1.25rem;
     }
 
-    .row {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .row > * {
-        padding: 0 .75rem;
-    }
 
     .footer-top{
         padding: 1rem 0;
