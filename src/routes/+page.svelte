@@ -1,4 +1,5 @@
-<script>
+<script lang="ts">
+    import { asset, resolve } from '$app/paths';
     import { articles } from '#lib/articles.js';
 </script>
  
@@ -12,9 +13,9 @@
     <ul class="grid">
         {#each articles as article (article.slug)}
             <li>
-                <a class="tile" href="/{article.slug}">
+                <a class="tile" href={resolve(article.slug as any)}>
                     <img
-                        src={article.banner}
+                        src={asset(article.banner as any)}
                         alt=""
                         loading="lazy"
                         width="640"
