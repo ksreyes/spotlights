@@ -5,6 +5,7 @@
 	import graphic2 from '#lib/assets/el-nino/graphic-2.svg';
     import Figure from '#lib/components/Figure.svelte';
     import MapShaded from '#lib/components/MapShaded.svelte';
+  import { resolve } from '$app/paths';
 
     let back = `spotlight`
 </script>
@@ -16,7 +17,7 @@
 <article class="content-grid">
 
     <div class="section-title">
-        <a href="/">{@html back}</a>
+        <a href="{resolve('/')}">{@html back}</a>
     </div>
 
     <h1>{articles[1].title}</h1>
@@ -33,7 +34,7 @@
     </figure>
 
     <div class="boxed">
-        <p>This is an excerpt from the <a href="/">Global Overview of Migration Routes report (May–August 2026 edition)</a>.</p>
+        <p>This is an excerpt from the <a href="{resolve('/')}">Global Overview of Migration Routes report (May–August 2026 edition)</a>.</p>
     </div>
     
     <p>According to forecasts from the World Meteorological Organization (WMO) and the United States National Oceanic and Atmospheric Administration (NOAA), as trade winds weakened, a new El Niño emerged as of mid-year. The event is forecast to intensify through late 2026, reach record strength between October and December, and persist into spring 2027. It is developing against an already exceptional climate baseline. Record heat, drought, wildfires and major floods have already strained livelihoods, infrastructure, essential services and coping capacity. El Niño therefore acts as a risk multiplier, with the greatest impacts expected to exacerbate existing vulnerabilities, where climate hazards converge with conflict, food insecurity, displacement, poverty and limited response capacity. Such impacts are further amplified where high debt burdens, energy and fertilizer costs, fragile supply chains and shrinking aid budgets constrain governments’ and communities’ capacity to absorb repeated shocks.</p>
