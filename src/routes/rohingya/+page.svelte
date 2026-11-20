@@ -5,6 +5,7 @@
     import { rohingya } from '#lib/data/rohingya.js';
     import { formatNumber } from '#lib/components/formatNumber.js';
     import src from '#lib/assets/rohingya/image.webp';
+    import { resolve } from '$app/paths';
     let back = `spotlight`
 </script>
 
@@ -15,7 +16,7 @@
 <article class="content-grid">
 
     <div class="section-title">
-        <a href="/">{@html back}</a>
+        <a href="{resolve('/')}">{@html back}</a>
     </div>
 
     <h1>The rising human cost of Rohingya maritime journeys</h1>
@@ -33,7 +34,7 @@
     </figure>
 
     <div class="boxed">
-        <p>This is an excerpt from the <a href="/">Global Overview of Migration Routes report (May–August 2026 edition)</a>.</p>
+        <p>This is an excerpt from the <a href="{resolve('/')}">Global Overview of Migration Routes report (May–August 2026 edition)</a>.</p>
     </div>
     
     <p>In late June and early July 2026, two boats carrying around 540 Rohingya refugees departed from the coast of Myanmar's Rakhine State. One boat lost contact shortly after departure; the other is believed to have capsized off Myanmar's coast several days later. <a href="https://www.iom.int/news/iom-and-unhcr-deeply-concerned-reports-maritime-incidents-myanmar-coast-over-500-feared-dead">No survivors were reported, with all those on board presumed dead.</a> This was not an isolated tragedy, but the latest in a series of deadly incidents along the Naf River, Bay of Bengal and Andaman Sea that have claimed thousands of Rohingya lives over the past decade.</p>
