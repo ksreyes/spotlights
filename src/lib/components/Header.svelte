@@ -110,7 +110,7 @@
 
     .container {
 		width: 100%;
-        max-width: 960px;
+        max-width: 1320px;
 		padding: 0 .75rem;
 		margin-right: auto; 
 		margin-left: auto; 
