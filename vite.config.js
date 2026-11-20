@@ -1,5 +1,5 @@
 import { sveltekit } from '@sveltejs/kit/vite';
-import adapter from '@sveltejs/adapter-static';
+// import adapter from '@sveltejs/adapter-static';
 import { defineConfig } from 'vite';
 
 // export default defineConfig({
@@ -19,14 +19,18 @@ import { defineConfig } from 'vite';
 // 	]
 // });
 
-export default defineConfig(({ command }) => ({
-  plugins: [
-    sveltekit({
-      adapter: adapter(),
-      paths: {
-        // Project sites live at username.github.io/repo-name
-        base: command === 'build' ? (process.env.BASE_PATH ?? '') : ''
-      }
-    })
-  ]
-}));
+// export default defineConfig(({ command }) => ({
+//   plugins: [
+//     sveltekit({
+//       adapter: adapter(),
+//       paths: {
+//         // Project sites live at username.github.io/repo-name
+//         base: command === 'build' ? (process.env.BASE_PATH ?? '') : ''
+//       }
+//     })
+//   ]
+// }));
+
+export default defineConfig({
+  plugins: [sveltekit()]
+});
